@@ -1,4 +1,4 @@
-# Ooh! Nice computer you got here! Can I have it?
+# CORNDOG
 
-This website will crash your browser. It also crashes Chromebooks since Chromebooks run completely off of the browser.
-Mario wants your computer so he will have it.
+This is forked from a different repository.  I just replaced the video with a picture and run the code instantly.
+The code crashes chromebooks because the browser is deeply integrated inside of ChromeOS
